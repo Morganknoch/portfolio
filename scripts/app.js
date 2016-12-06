@@ -1,6 +1,5 @@
 $(document).ready(function () {
   var $menu = $("#sidebar-wrapper");
-  console.log("sdfhsfd");
   $(document)
     .on("click", ".js-menu-open", function() {
       $menu.addClass("open");
